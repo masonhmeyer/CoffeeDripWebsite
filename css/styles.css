@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f9f9f9;
-    color: #333;
+    color: #333; /* Setting a default dark text color */
 }
 
 header {
@@ -40,16 +40,18 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #fff;
     text-align: center;
+    color: #333; /* Ensuring the text color is dark */
 }
 
 .hero h2 {
     font-size: 3em;
+    color: #333; /* Dark color for the hero section heading */
 }
 
 .hero p {
     font-size: 1.5em;
+    color: #333; /* Dark color for the hero section paragraph */
 }
 
 .btn {
@@ -68,6 +70,7 @@ nav {
 section {
     padding: 60px 20px;
     text-align: center;
+    color: #333; /* Ensure text color is dark for all sections */
 }
 
 .product-grid {
