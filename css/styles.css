@@ -18,6 +18,17 @@ nav {
     align-items: center;
 }
 
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo-image {
+    width: 30px;  /* Set the desired width */
+    height: 30px;  /* Set the desired height */
+    margin-right: 10px;
+}
+
 .logo h1 {
     margin: 0;
 }
